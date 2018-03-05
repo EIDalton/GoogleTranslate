@@ -19,9 +19,9 @@ namespace GoogleTranslateAPI.Controllers
         public string source { get; set; }
         public string target { get; set; }
         public string format { get; set; }
-    }
+    }hdfghdfgh
 
-    public class AddCORSHeaderFilter : ActionFilterAttribute
+dfghdfgh    public class AddCORSHeaderFilter : ActionFilterAttribute
     {
         public override void OnActionExecuted(ActionExecutedContext actionExecutedContext)
         {
