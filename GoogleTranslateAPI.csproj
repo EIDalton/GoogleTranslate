@@ -7,6 +7,8 @@
   <ItemGroup>
     <None Include="translate.iq-x.co.pfx" CopyToOutputDirectory="Always" />
     <None Include="ca.iq-x.co.crt" CopyToOutputDirectory="Always" />
+    <PackageReference Include="nunit" Version="3.9.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.9.0" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
   </ItemGroup>
 
