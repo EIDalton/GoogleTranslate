@@ -57,7 +57,7 @@ namespace UnitTests
             Assert.IsTrue(boolResult, result);
         }
 
-        [TestCase(true, "ExpiredCertificate.pfx")]
+        [TestCase(false, "ExpiredCertificate.pfx")]
         [TestCase(true, "translate.iq-x.co.pfx")]
         public void CertificateValidationTest(bool expectedResult, string certificateName)
         {
